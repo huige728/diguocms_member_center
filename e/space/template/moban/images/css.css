@@ -1,0 +1,24 @@
+body{background:#efefef;font-family:"Microsoft YaHei";}
+
+.main-header {
+    text-align: center;background: #f4645f;padding: 62px 0;margin-bottom: 35px;
+    background-repeat: no-repeat;background-position: center 20%;-webkit-background-size: cover;background-size: cover;	
+}
+.main-header h1, .main-header h2{color: #fff;font-size: 3em;}
+.nav > li > a{padding:14px;}
+.navbar-toggle{margin-top:6px;}
+
+.side-login{height: 320px;padding-bottom: 20px;}
+.side-login .login-bg {border-radius: 4px 4px 0 0;}
+.side-login .login-box {margin-top: -42px;text-align: center;}
+.side-login .login-box .login-avatar {display: block;width: 84px;height: 84px;border-radius: 50%;margin: 0 auto;}
+.side-login .EnterBtn { display: block;width: 128px;height: 36px;line-height: 36px;border-radius: 4px;margin: 30px auto 0;background: #df001f;color: #fff;font-size: 14px;}
+.side-login .EnterBtn a{color: #fff;}
+.side-login .login-box .signup-box {margin: 20px 0;}
+.side-login .login-box .signup-box a {color: #a4a9ad;padding:0 30px 10px 30px; display:inline-block; }
+.tongji{background: #4fc277;text-align: center;width: 145px;height: 55px;line-height: 55px;color: #fff;font-size: 16px;margin:0 auto;}
+.list-group{padding-left:60px;}
+.reply{border-top:1px solid #ddd;padding:10px 0 10px 100px;}
+#spacegbshowkey,#isprivate,#spacefbshowkey{line-height:34px;display: inline-block;}
+
+.footer{background:#333;text-align: center;color: #888;padding:20px 0;}

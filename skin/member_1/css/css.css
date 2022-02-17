@@ -1,0 +1,100 @@
+ul{padding-left: 0;margin-bottom: 0;list-style: none;}
+a:hover{text-decoration: none;}
+
+.navbar-bg{display: flex;align-items: center; background-color: #fff;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);}
+.menu-toggler{width: 60px;height: 60px;line-height: 60px;background: #ed2a26;font-size: 20px;cursor: pointer;display: block;text-align: center;color: #fff;}
+.menu-toggler:visited {color: #fff;background: #ed2a26;}
+.menu-toggler:hover{color: #fff;background: #af1f24;}
+.menu-toggler:active {color: #fff;background: #ed2a26;}
+.logo {float: left;width: 135px;margin-left: 20px;}
+
+.header_right{margin-left:auto;float:right;padding-right:15px;}
+.header_right>ul>li{display: inline-block;vertical-align:middle;}
+
+.dropdown-menu>li>a{text-align:center;}
+.dropdown-menu>li>a:hover{color:#fff;background:#ed2a26;}
+.cur_btn{font-size:14px;font-weight:500;color:#fff;background:#ed2a26;padding: 9px 15px;border-radius:25px;margin-right:10px;}
+.cur_btn:hover{color:#fff;background:#af1f24;}
+
+.top_icon{background:#ed2a26;color:#fff;border-radius:50%;font-size:18px;width:34px;height:34px;text-align:center;padding-top:9px;}
+.top_icon:hover{color:#fff;background:#af1f24;}
+
+
+.sidebar_nav{position:fixed;left:-240px;top:60px;bottom:0;background:#fff;overflow:hidden;width:240px;z-index:995;}
+
+
+.sidebar_nav:hover {overflow-y: scroll;}
+.sidebar_nav::-webkit-scrollbar{width:4px}/**滚动条的宽度**/
+.sidebar_nav::-webkit-scrollbar-track-piece {background-color: #e5e5e5;}/**滚动条凹槽的颜色，还可以设置边框属性**/
+.sidebar_nav::-webkit-scrollbar-thumb{height:50px;background:hsla(0,0%,53.3%,.4)}/**滚动条的设置**/
+
+	
+.menu_item{position:relative;min-height:42px;line-height:42px;}
+.menu_label{display:block;overflow:hidden;font-size:14px;color:#333;font-weight:600;white-space:nowrap;cursor:pointer;}
+.menu_label:hover{color:#ed2a26;}
+
+.menu_icon{display:block;float:left;width:50px;height:45px;line-height:43px;font-size:20px;text-align:center;}
+.menu_label span{display:block;height:45px;line-height:43px;}
+.menu_label span:after{position:absolute;top:0;right:15px;height:45px;line-height:45px;font-family:'FontAwesome';content:"\f105";font-weight:900;}
+.menu_label .open:after {content: "\f107";}
+
+
+.menu_second{background-color: #e5e5e5;display:none;overflow:hidden;}
+.menu_second a{display:block;padding-left:50px;padding-right:16px;font-size:14px;font-weight:400;color:#333;}
+.menu_second a:hover, a.cur{color:#fff;background:#ed2a26;}
+.menu_active{border-left:4px solid #ed2a26;background:#e5e5e5;}
+
+.footer{border-top: 1px solid #e5e5e5;padding:15px 14px;}
+.footer ul li{display:inline-block;}
+.footer a{font-size:13px;font-weight:500;text-align:left;line-height:24px;padding:0 3px;color:#333;}
+.footer a:hover{color:#ed2a26;}
+.footer_content{padding-top:15px;}
+.footer_content p{font-size:12px;font-weight:400;color:#afafaf;text-align:left;line-height:24px;}
+
+
+.wrapper {padding: 90px 0 0;transition: all 0.3s ease-out;}
+.form_main{margin:20px;}
+.title {margin-top: 0;padding-bottom: 7px;border-bottom: 1px solid #ebebeb;margin-bottom: 21px;position: relative;font-size: 1.5em;}
+.title:after {content: "";width: 90px;height: 1px;background: #ed2a26;position: absolute;left: 0;bottom: -1px;}
+#loginshowkey,#regshowkey,#getpasswordshowkey,#sendmsgfriend,#friendclass,#reportshowkey{height:34px;line-height:34px;display: inline-block;}
+
+
+.widget-box{background-color:#ed2a26;color:#ffffff;padding:30px;}
+.widget-box a{color:#fff;font-size: 12px;padding:0 5px;height:30px;line-height:30px;}
+.widget-box a:hover{color:#ed2a26;background-color:#fff;}
+.bg-navy{background-color:#1ab394;color:#ffffff;}
+.bg-lazur{background-color:#23c6c8;color:#ffffff;}
+.bg-yellow{background-color:#f8ac59;color:#ffffff;}
+.bg-red{background-color: #ed5565;color:#ffffff;}
+.m-t-20 {margin-top:20px;}
+.m-b-20 {margin-bottom:20px;}
+.p-b-10 {padding-bottom:10px;}
+.font-bold {font-weight:600;}
+.no-margins {margin:0 !important;}
+.circle-border {border:6px solid #FFFFFF;border-radius:50%;height:128px;width:128px;}
+.text-data{font-size:30px;padding-top:10px;}
+.widget-link a:hover{background:#ed2a26;color:#ffffff;font-weight:600;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {	
+	body {overflow-y: scroll;}
+	.sidebar_nav{left: 0;}
+	.wrapper {margin-left: 260px;}
+	.wrapper__minify {margin-left: 0;}
+}
